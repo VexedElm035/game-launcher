@@ -1,6 +1,5 @@
 .home_container {
   height: 90%;
-  outline: none; /* Quitar outline cuando tiene focus */
 }
 
 .home_content {
@@ -15,28 +14,8 @@
 .home_content-cards {
   display: flex;
   flex-direction: row;
-  gap: 30px; /* Aumentar gap para acomodar las cards escaladas */
+  gap: 20px;
   align-items: center;
   overflow-x: auto;
-  padding: 60px 50px; /* Aumentar padding vertical para las cards escaladas */
-  scroll-behavior: smooth;
-}
-
-/* Mejorar la scrollbar */
-.home_content-cards::-webkit-scrollbar {
-  height: 8px;
-}
-
-.home_content-cards::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 4px;
-}
-
-.home_content-cards::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-}
-
-.home_content-cards::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.5);
+  padding: 50px;
 }

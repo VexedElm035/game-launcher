@@ -4,27 +4,6 @@
   background-color: rgba(255, 255, 255, 0.279);
   border: 2px solid #ffffff79;
   padding: 10px;
-  transition: all 0.3s ease;
-  cursor: pointer;
-  transform: scale(1);
-}
-
-.card_container:hover {
-  transform: scale(1.05);
-  border-color: #ffffff;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-}
-
-.card_container.card_active {
-  transform: scale(1.1);
-  border-color: #00ff88;
-  box-shadow: 0 10px 25px rgba(0, 255, 136, 0.4);
-  background-color: rgba(0, 255, 136, 0.1);
-}
-
-.card_container.card_active:hover {
-  transform: scale(1.15);
-  box-shadow: 0 12px 30px rgba(0, 255, 136, 0.5);
 }
 
 .card_content {
